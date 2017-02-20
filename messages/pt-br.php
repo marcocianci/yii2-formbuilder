@@ -1,4 +1,5 @@
 <?php
+/* Traduzir apenas os campos utilizados pelos usuários. */
 return [
     "addOption" => "Add Option",
     "allFieldsRemoved" => "All fields were removed.",
@@ -37,16 +38,16 @@ return [
     "hide" => "Edit",
     "hidden" => "Hidden Input",
     "label" => "Label",
-    "labelEmpty" => "Field Label cannot be empty",
-    "limitRole" => "Limit access to one or more of the following roles:",
+    "labelEmpty" => "Campo Label não pode ficar em branco", // Field Label cannot be empty
+    "limitRole" => "Limitar o acesso a um ou mais dos seguintes perfis:",
     "mandatory" => "Mandatory",
     "max" => "Maximum",
     "maxlength" => "Max Length",
     "min" => "Minimum",
     "minOptionMessage" => "This field requires a minimum of 2 options",
     "multipleFiles" => "Multiple Files",
-    "name" => "Name",
-    "no" => "No",
+    "name" => "Nome",
+    "no" => "Não",
     "number" => "Number",
     "off" => "Off",
     "on" => "On",
@@ -73,7 +74,7 @@ return [
     "radio" => "Radio",
     "removeMessage" => "Remove Element",
     "remove" => "&#215;",
-    "required" => "Required",
+    "required" => "Obrigatório",
     "richText" => "Rich Text Editor",
     "roles" => "Access",
     "save" => "Save",
@@ -101,12 +102,12 @@ return [
         ]
     ],
     "subtype" => "Type",
-    "text" => "Text Field",
-    "textArea" => "Text Area",
+    "text" => "Campo de texto",
+    "textArea" => "CampoText Area",
     "toggle" => "Toggle",
     "warning" => "Warning!",
     "value" => "Value",
     "viewJSON" => "{  }",
     "viewXML" => "&lt;/&gt;",
-    "yes" => "Yes",
+    "yes" => "Sim",
 ];
